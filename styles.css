@@ -1,0 +1,127 @@
+/* 1. Selector */
+h1 {
+    /* 2. Declaration Block (Property: Value;) */
+    color: Violet;
+    font-size: 47px;
+    text-align: center;
+}
+
+#ft {
+	color:darkblue ;
+}
+
+.gr{
+	color: blueviolet;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Montserrat;
+}
+
+p{
+    padding: 20px;
+}
+
+#main-content{
+    margin: 20 auta;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li{
+    color: darkred;
+
+}
+
+.C-L {
+    float: left;
+    width:30% ;
+
+}
+.C-R {
+    float: right;
+    width: 55%;
+}
+
+footer {
+    clear: both;
+}
+
+p{
+    font-size: 28px;
+}
+
+.C-C{
+    float: center;
+}
+
+h2{
+    font-size: 34px;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a {
+    font-family: Montserrat;
+}
+
+footer{
+    text-align: center;
+
+}
+
+.Downlod-button {
+    display: inline-block;
+    background-color: 4a9082;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Downlod-button:hover {
+    background-color: #3870B9;
+
+}
+
+body{
+    background-color:#f0f0f0 ;
+    color: #1a1a1a;
+    transition: background-color 0.5s,color 0.5s;
+}
+
+.darkmode{
+    background-color: #1a1a1a;
+    color: $f0f0f0;
+}
+
+.darkmode h1,.darkmode h2, .darkmode li, .darkmode p{
+    color: skyblue ;
+
+}
+
+.darkmode a {
+    color: #67A9f1;
+
+}
+.darkmode h1{
+    color: blueviolet;
+}
