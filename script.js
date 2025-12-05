@@ -79,8 +79,8 @@ toggleButton.addEventListener("click"
 // IMAGE SWAP LOGIC
 const pic = document.getElementById("PP");
 
-const img1 = "SHf dp.jpeg";    // First image
-const img2 = "Kitana.jpeg";    // Second image
+const img1 = "shf dp.jpeg";    // First image
+const img2 = "kitana.jpeg";    // Second image
 
 pic.addEventListener("click", () => {
     pic.src = pic.src.includes(img1) ? img2 : img1;
